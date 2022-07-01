@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import '../index.css'
 import { useDispatch } from 'react-redux'
-import add from '../store/cartSlice'
-
-
+import { add } from '../store/cartSlice'
 
 const Products = () => {
      console.log('add : ',add)
